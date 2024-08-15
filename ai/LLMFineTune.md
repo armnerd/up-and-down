@@ -1,4 +1,4 @@
-# LLM 微调
+# 微调是什么调
 
 ## 1. huggingface
 
@@ -21,6 +21,8 @@ https://huggingface.co/docs/peft/en/task_guides/lora_based_methods
 // Datasets
 from datasets import load_dataset
 ds = load_dataset("food101")
+
+// Datasets tokenize
 
 // Train
 from peft import LoraConfig, TaskType, get_peft_model
@@ -71,7 +73,7 @@ tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
 
 https://github.com/hiyouga/LLaMA-Factory
 
-* 北航开源的图形化微调工具
+* 北航 PhD 开源的图形化微调工具
 
 ## 3. llama.cpp
 
@@ -79,6 +81,7 @@ https://github.com/ggerganov/llama.cpp
 
 * 运行大模型做推理，还可以提供 api 服务
 * 转换为 gguf 格式，然后可以量化为 4bit 版本
+* ollama 就是基于这个封装的
 
 ```bash
 // build
