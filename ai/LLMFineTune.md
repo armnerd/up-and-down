@@ -96,3 +96,11 @@ python convert_hf_to_gguf.py
 // quantize
 ./llama-quantize
 ```
+
+## 4. tokenizer
+
+https://tiktokenizer.vercel.app
+
+* Tokens are the fundemantal unit, the “atom” of Large Language Models (LLMs). Tokenization is the process of translating strings (i.e. text) and converting them into sequences of tokens and vice versa.
+* In the machine learning context, a token is typically not a word. It could be a smaller unit, like a character or a part of a word, or a larger one like a whole phrase. 
+* Embeddings are dense, low-dimensional, continuous vector representations of tokens.
