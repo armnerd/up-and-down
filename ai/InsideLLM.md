@@ -10,6 +10,8 @@ https://poloclub.github.io/transformer-explainer/
 
 > Reinforcement Learning with Human Feedback
 
+## backpropagation
+
 ## PEFT
 
 > Parameter Efficient Fine-Tuning
