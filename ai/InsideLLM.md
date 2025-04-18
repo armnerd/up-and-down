@@ -3,6 +3,7 @@
 ## transformers
 
 https://poloclub.github.io/transformer-explainer/
+https://bbycroft.net/llm
 
 ## self-attention
 
